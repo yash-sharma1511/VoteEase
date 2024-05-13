@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+aside {
+    background-color: #FFF3C7;
+    padding: 40px;
+
+}
+
+aside ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #31363F;
+    
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    background-color: #E5DDC5;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+i{  
+    padding-top: 10px;
+} 
+.name{
+   
+    border: 0;
+    margin: 0;
+    height: 45px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 18px;
+    text-shadow: 0.5px 0.5px gray;
+    background-image: linear-gradient(30deg,#EABE6C,#FDAF7B,#BE7B72);
+}
+#username{
+    padding-left: 870px;
+    font-size: 20px;
+}
+#img{
+    height: 600px;
+    width: 720px;
+}
+.container{
+        
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.poll-box {
+    max-width: 400px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.poll-box h2 {
+    margin-bottom: 15px;
+}
+
+.poll-box form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.poll-box form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.poll-box form button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #39943d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.poll-box form button:hover {
+    background-color: #1e5b21;
+}
+    
